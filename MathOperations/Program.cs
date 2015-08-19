@@ -30,11 +30,15 @@ namespace MathOperations
             {
                 return (a / b).ToString();
             }
-            //I know there is a mistake but can not think about the way to solve it right now whithout looking on the internet for help :)
+            return String.Empty;
         }   
         static void Main(string[] args)
         {
-            
+            Program mathOperations = new Program();
+            mathOperations.Add(3, 4);
+            mathOperations.Divide(52, 2);
+            mathOperations.Multiplicate(24, 9);
+            mathOperations.Substract(2, 52);
         }
     }
 }
